@@ -1,4 +1,4 @@
-const Campground = require('../models/Campground');
+const Campground = require('../models/Campgorund');
 const Review = require('../models/review');
 
 module.exports.createReview = async (req, res, next) => {

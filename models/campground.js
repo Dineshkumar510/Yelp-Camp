@@ -62,10 +62,10 @@ CampgroundSchema.post('findOneAndDelete', async function(doc){
     }
 })
 
-module.exports = mongoose.model('Campground',CampgroundSchema);
+//module.exports = mongoose.model('Campground',CampgroundSchema);
 
-// var Campground = mongoose.models.Campground || mongoose.model('Campground', CampgroundSchema);
+var Campground = mongoose.models.Campground || mongoose.model('Campground', CampgroundSchema);
 
-// module.exports = Campground;
+module.exports = Campground;
 
 

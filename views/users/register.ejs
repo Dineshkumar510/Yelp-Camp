@@ -1,0 +1,67 @@
+<% layout('layouts/boilerplate')%>
+
+<section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+          <div class="row">
+            <div class="col text-center">
+              <h1>Register</h1>
+              <p class="text-h3">Welcome to YelpCamp </p>
+            </div>
+          </div>
+        <form action="/register" method="POST" class="validated-form" novalidate>
+          <div class="row align-items-center">
+            <div class="col mt-4">
+              <input type="text" class="form-control" placeholder="Username" id="username" name="username" required>
+            <div class="valid-feedback">
+            Looks good!
+           </div>
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+              <div class="valid-feedback">
+                Looks good!
+            </div>
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col">
+              <input type="password" class="form-control" aria-describedby="passwordHelpInline" placeholder="Password" id="password" name="password" required>
+              <small id="passwordHelpInline" class="text-muted">
+                Must be 8-20 characters long.
+              </small>
+              <div class="valid-feedback">
+                Looks good!
+            </div>
+            </div>
+            <div class="col">
+              <input type="password" class="form-control" aria-describedby="passwordHelpInline" placeholder="Confirm Password" id="confirmpassword" name="confirmpassword" required>
+              <small id="passwordHelpInline" class="text-muted">
+                Must be 8-20 characters long.
+              </small>
+              <div class="valid-feedback">
+                Looks good!
+            </div>
+            </div>
+          </div>
+          <div class="row justify-content-start mt-4">
+            <div class="col">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" required>
+                  I Read and Accept for Cookies & <a href="#">Terms and Conditions</a>
+                </label>
+              </div>
+              <button class="btn btn-primary mt-4">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+

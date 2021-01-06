@@ -96,6 +96,9 @@ app.get('/', (req,res, next) => {
     res.render('home');
 });
 
+app.get('/Conditions',(req, res, next) => {
+    res.render('conditions');
+})
 
 app.all('*', (res, req, next) => {
     next(new ExpressError('Page not Found', 404))

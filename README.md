@@ -2,6 +2,11 @@
 YelpCamp is a simple web application built with express js and mongodb to see the campgrounds all over the world.
 website for this project: https://guarded-sea-76679.herokuapp.com/
 
+ Dummy credentials:
+username: Recruiter@yelpCamp
+password: 12345
+
+
 *Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the factor standard server framework for Node.js.
 
 *EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.

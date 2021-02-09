@@ -2,61 +2,107 @@
 YelpCamp is a simple web application built with express js and mongodb to see the campgrounds all over the world.
 website for this project: https://guarded-sea-76679.herokuapp.com/
 
- Dummy credentials:
+ ***Dummy credentials:***
 username: Recruiter@yelpCamp, 
 password: 12345
 
 
-*Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the factor standard server framework for Node.js.
+## Tools-Used-In:
 
-*EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.
+**Node.js** is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the Chrome V8 engine and executes JavaScript code outside a web browser.
 
-*Mongoose is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
+**NPM** is a package manager for the JavaScript programming language. npm, Inc. is a subsidiary of GitHub, that provides hosting for software development and version control with the usage of Git. npm is the default package manager for the JavaScript runtime environment Node.js.
 
-*MongoDB is a document-oriented database which stores data in JSON-like documents with dynamic schema. It means you can store your records without worrying about the data structure such as the number of fields or types of fields to store values.
+**Express.js,** or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the factor standard server framework for Node.js.
 
-For making this Website we use Express framework as Server side language and also used EJS which is simple templating language, and some NPM packages from nodejs. And also used Mongoose library(ODM), to interact directly with MongoDB database which the website is less interactive but works effectively!.
+**EJS** is a simple templating language that lets you generate HTML markup with plain JavaScript.
 
-#Features
-Authentication:
+**Mongoose** is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
 
-User login with username and password
-Authorization
+**MongoDB** is a document-oriented database which stores data in JSON-like documents with dynamic schema. It means you can store your records without worrying about the data structure such as the number of fields or types of fields to store values.
 
-One cannot manage posts and view user profile without being authenticated
-One cannot edit or delete posts and comments created by other users
-Manage campground posts with basic functionalities:
+**JOI** is the most powerful schema description language and data validator for JavaScript.
 
-Create, edit and delete posts and comments
+**Passport** is  [Express.js](http://expressjs.com/)-compatible authentication middleware for  [Node.js](http://nodejs.org/).
+Passport's sole purpose is to authenticate requests, which it does through an extensible set of plugins known as  _strategies_. Passport does not mount routes or assume any particular database schema, which maximizes flexibility and allows application-level decisions to be made by the developer. The API is simple: you provide Passport a request to authenticate, and Passport provides hooks for controlling what occurs when authentication succeeds or fails.
 
-Upload campground photos
+*For making this Website I used the Express framework as Server side rendering  and also used EJS which is simple templating language, and some NPM packages from nodejs. And also used Mongoose library(ODM), to interact directly with MongoDB database which the website is less interactive but works effectively!.*
 
-Display campground location on Google Maps (working on it)
+## Features:
 
-Search existing campgrounds
+ - **Authentication**: 
+User login with username and password.
 
-Manage user account with basic functionalities
+ - **Authorization**
+One cannot manage posts and view user profile without being authenticated.
+One cannot edit or delete posts and comments created by other users.
 
-Flash messages responding to users' interaction with the app
+- **Manage campground posts with basic functionalities:**
 
-Responsive web design
+	Create, edit and delete posts and comments.
 
-Custom Enhancements (under construction)
+	Upload campground photos.
 
-Update campground photos when editing campgrounds
+	Display campground location on MpaBox.
 
-Update personal information on profile page
+	Search existing campgrounds.
 
-#Built with
-*Front-end
-*ejs
-*Bootstrap
-*Back-end
-*express
-*mongoDB
-*mongoose
-*passport
-*passport-local
-*express-session
-*method-override
-*Heroku
+	Manage user account with basic functionalities.
+
+	Flash messages responding to users' interaction with the app.
+
+	Responsive web design.
+
+	Update campground photos when editing campgrounds.
+
+	Update personal information on profile page (ongoing!).
+
+
+## Dependencies used for this Project:
+
+	mapbox/mapbox-sdk: "0.11.0",
+
+	cloudinary: "1.23.0",
+
+	connect-flash: "0.1.1",
+
+	connect-mongo: "3.2.0",
+
+	dotenv: "8.2.0",
+
+	ejs: "3.1.5",
+
+	ejs-mate: "3.0.0",
+
+	express: "4.17.1",
+
+	express-mongo-sanitize: "2.0.1",
+
+	express-session: "1.17.1",
+
+	gitignore: "0.6.0",
+
+	helmet: "4.3.1",
+
+	joi: "17.3.0",
+
+	method-override: "^3.0.0",
+
+	mongoose: "5.11.9",
+
+	multer: "1.4.2",
+
+	multer-storage-cloudinary: "4.0.0",
+
+	nodemon: "2.0.6",
+
+	npm: "7.3.0",
+
+	passport: "0.4.1",
+
+	passport-local": "1.0.0",
+
+	passport-local-mongoose: "6.0.1",
+
+	sanitize-html: "2.3.0"
+

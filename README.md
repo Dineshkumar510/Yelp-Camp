@@ -16,3 +16,33 @@ password: 12345
 *MongoDB is a document-oriented database which stores data in JSON-like documents with dynamic schema. It means you can store your records without worrying about the data structure such as the number of fields or types of fields to store values.
 
 For making this Website we use Express framework as Server side language and also used EJS which is simple templating language, and some NPM packages from nodejs. And also used Mongoose library(ODM), to interact directly with MongoDB database which the website is less interactive but works effectively!.
+
+#Features
+Authentication:
+
+User login with username and password
+Authorization
+
+One cannot manage posts and view user profile without being authenticated
+One cannot edit or delete posts and comments created by other users
+Manage campground posts with basic functionalities:
+
+Create, edit and delete posts and comments
+
+Upload campground photos
+
+Display campground location on Google Maps (working on it)
+
+Search existing campgrounds
+
+Manage user account with basic functionalities
+
+Flash messages responding to users' interaction with the app
+
+Responsive web design
+
+Custom Enhancements (under construction)
+
+Update campground photos when editing campgrounds
+
+Update personal information on profile page

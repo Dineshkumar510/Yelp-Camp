@@ -46,3 +46,17 @@ Custom Enhancements (under construction)
 Update campground photos when editing campgrounds
 
 Update personal information on profile page
+
+#Built with
+*Front-end
+*ejs
+*Bootstrap
+*Back-end
+*express
+*mongoDB
+*mongoose
+*passport
+*passport-local
+*express-session
+*method-override
+*Heroku

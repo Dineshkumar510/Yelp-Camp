@@ -25,7 +25,9 @@ It is a package manager for the JavaScript programming language. npm, Inc. is a 
 
  It is a simple templating language that lets you generate HTML markup with plain JavaScript.
 
-**Mongoose** is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
+ - **Mongoose**
+
+ is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
 
  - **MongoDB**
 
@@ -119,5 +121,4 @@ One cannot edit or delete posts and comments created by other users.
 	passport-local-mongoose: "6.0.1",
 
 	sanitize-html: "2.3.0"
-
 

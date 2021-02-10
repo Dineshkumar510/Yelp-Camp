@@ -5,9 +5,9 @@ website for this project: https://guarded-sea-76679.herokuapp.com/
  ****Dummy credentials:***
 	username: Recruiter@yelpCamp, 
 	password: 12345*
+	
 
-
-## Tools-Used-In:
+## Project Tools-Used-In:
 
  - **Node.js**
 
@@ -44,7 +44,52 @@ Passport's sole purpose is to authenticate requests, which it does through an ex
 
 *For making this Website I used the Express framework as Server side rendering  and also used EJS which is simple templating language, and some NPM packages from nodejs. And also used Mongoose library(ODM), to interact directly with MongoDB database which the website is less interactive but works effectively!.*
 
-## Features:
+## Project  Architecture:
+
+ 1. **REpresentational State Transfer:**
+
+REST is web standards based architecture and uses HTTP Protocol. It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods.
+
+A REST Server simply provides access to resources and REST client accesses and modifies the resources using HTTP protocol. Here each resource is identified by URIs/ global IDs. REST uses various representation to represent a resource like text, JSON, XML.
+
+Following four HTTP methods are commonly used in REST based architecture.
+
+-   **GET**  − This is used to provide a read only access to a resource.
+    
+-   **PUT**  − This is used to create a new resource.
+    
+-   **DELETE**  − This is used to remove a resource.
+    
+-   **POST**  − This is used to update a existing resource or create a new resource.
+
+Web services based on REST Architecture are known as RESTful web services. These webservices uses HTTP methods to implement the concept of REST architecture. A RESTful web service usually defines a URI, Uniform Resource Identifier a service, which provides resource representation such as JSON and set of HTTP Methods.
+
+ 2. **Model-View-Controller(MVC) architecture:**
+
+MVC is an acronym for Model-View-Controller.  It is a design pattern for software projects. It is used majorly by Node developers and by C#, Ruby, PHP framework users too.  In MVC pattern, application and its development are divided into three interconnected parts. The advantage of this is it helps in focusing on a specific part of the application name, the ways information is presented to and accepted from, the user. It helps in allowing for efficient code reuse and the parallel development of the application. Even if the project structure might look a little different than an ideal MVC structure, the basic program flow in and out the application remains the same.
+
+ - **Model**:
+
+Model represents the structure of data, the format and the constraints with which it is stored. It maintains the data of the application. Essentially, it is the database part of the application.
+
+ - **View**:
+
+ View is what is presented to the user. Views utilize the Model and present data in a form in which the user wants. A user can also be allowed to make changes to the data presented to the user. They consist of static and dynamic pages which are rendered or sent to the user when the user requests them.
+
+ - **Controller**:
+
+It  controls  the requests of the user and then generates appropriate response which is fed to the viewer. Typically, the user interacts with the View, which in turn generates the appropriate request, this request will be handled by a controller. The controller renders the appropriate view with the model data as a response.  
+So, to sum it up:
+
+-   Model is data part.
+-   View is User Interface part.
+-   Controller is request-response handler.
+
+![mvc architecture](https://media.geeksforgeeks.org/wp-content/uploads/mvc-block-diagram.png)
+
+						MVC architecture
+
+## Project Features:
 
  - **Authentication**: 
 User login with username and password.
